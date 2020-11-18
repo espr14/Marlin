@@ -20,6 +20,7 @@
  *
  */
 #pragma once
+// clang-format off
 
 #define SKR_MINI_E3_V2
 

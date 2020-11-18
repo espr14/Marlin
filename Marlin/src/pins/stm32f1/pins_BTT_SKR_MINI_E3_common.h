@@ -20,6 +20,7 @@
  *
  */
 #pragma once
+// clang-format off
 
 #if NOT_TARGET(TARGET_STM32F1)
   #error "Oops! Select an STM32F1 board in 'Tools > Board.'"
