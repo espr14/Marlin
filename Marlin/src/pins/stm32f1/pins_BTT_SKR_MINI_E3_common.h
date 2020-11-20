@@ -20,6 +20,7 @@
  *
  */
 #pragma once
+// clang-format off
 
 #if NOT_TARGET(TARGET_STM32F1)
   #error "Oops! Select an STM32F1 board in 'Tools > Board.'"
@@ -101,7 +102,7 @@
 #define HEATER_BED_PIN                      PC9   // "HB"
 
 #ifdef SKR_MINI_E3_V2
-  #define FAN_PIN                           PC6
+  #define FAN_PIN                           PC7
 #else
   #define FAN_PIN                           PA8   // "FAN0"
 #endif
